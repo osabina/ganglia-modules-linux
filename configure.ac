@@ -21,7 +21,7 @@ AM_INIT_AUTOMAKE
 AC_CONFIG_MACRO_DIR([m4])
 
 AC_CANONICAL_HOST
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS(config.h)
 
 dnl The following cpu_vendor_os string goes into config.h
 dnl
